@@ -24,7 +24,6 @@ inquirer.prompt([
       // 使用模板引擎渲染文件
       ejs.renderFile(path.join(tmplDir, file), anwsers, (err, result)=>{
         if(err) throw err
-        console.log(result)
         // 将结果写入目标文件路径
         fs.writeFileSync(path.join(destDir, file), result)
       })
