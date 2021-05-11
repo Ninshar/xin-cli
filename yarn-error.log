@@ -1,0 +1,31 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\lin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;D:\软件\Microsoft VS Code\bin;C:\Users\lin\AppData\Roaming\npm;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MongoDB\Server\4.2\bin;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\flutter-sdk\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;D:\软件\Microsoft VS Code\bin;C:\Users\lin\AppData\Roaming\npm;D:\Program Files\jdk-14.0.1\bin\bin;D:\Program Files\jdk-14.0.1\bin\jre\bin;D:\Program Files\maven\apache-maven-3.6.3\bin;C:\Users\lin\AppData\Local\Android\Sdk\platform-tools;C:\Users\lin\AppData\Local\Android\Sdk\tools;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\lin\Documents\xin-cli\package.json: Unexpected token · in JSON at position 0
+      at JSON.parse (<anonymous>)
+      at C:\Users\lin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\lin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:304:30)
+      at C:\Users\lin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:315:13
+
+npm manifest: 
+  ·
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

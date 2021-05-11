@@ -1,0 +1,13 @@
+{
+  "name": "xin-cli",
+  "version": "1.0.0",
+  "description": "xin cli zip",
+  "main": "index.js",
+  "bin": "cli.js",
+  "author": "xin",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "inquirer": "^8.0.0"
+  }
+}
