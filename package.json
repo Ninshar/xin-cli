@@ -4,6 +4,10 @@
   "description": "xin cli zip",
   "main": "index.js",
   "bin": "cli.js",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/Ninshar/xin-cli.git"
+  },
   "author": "xin",
   "license": "MIT",
   "dependencies": {
